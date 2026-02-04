@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms and Conditions | Scannerly</title>
+    <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-main: #e5e5e5;
+            --text-muted: #a3a3a3;
+            --accent: #3b82f6;
+            --card-bg: #171717;
+            --border: rgba(255,255,255,0.1);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 0;
+            margin-bottom: 3rem;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.25rem;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #fff; }
+        h2 { 
+            font-size: 1.5rem; 
+            margin-top: 4rem; 
+            margin-bottom: 1.5rem; 
+            color: #fff; 
+            border-left: 4px solid var(--accent);
+            padding-left: 1rem;
+        }
+        h3 { font-size: 1.2rem; margin-top: 2rem; color: #fff; }
+
+        p { color: var(--text-muted); margin-bottom: 1.2rem; }
+        
+        .alert-box {
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid var(--accent);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            color: var(--text-main);
+        }
+
+        .toc {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 4rem;
+        }
+
+        .toc h4 { margin-top: 0; color: #fff; }
+        .toc ul { list-style: none; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        .toc a { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+        .toc a:hover { text-decoration: underline; }
+
+        ul.content-list { padding-left: 1.5rem; color: var(--text-muted); }
+        ul.content-list li { margin-bottom: 0.8rem; }
+
+        .section-number { color: var(--accent); font-weight: bold; margin-right: 8px; }
+
+        @media (max-width: 600px) {
+            .toc ul { grid-template-columns: 1fr; }
+            h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <a href="../index.html" class="logo">← Back to Home</a>
+        </header>
+
+        <h1>Terms and Conditions</h1>
+        <p><strong>Effective Date:</strong> [Insert Date]</p>
+
+        <p>These Terms and conditions (“Terms”) apply to your access and use of our services, apps, and products that you purchase or sign up for on <strong>Scannerly</strong> (collectively, the “Services”).</p>
+
+        <div class="alert-box">
+            <strong>IMPORTANT NOTICE:</strong> THESE TERMS CONTAIN AN ARBITRATION PROVISION AND A WAIVER OF CLASS ACTIONS. YOU AGREE THAT DISPUTES WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION.
+        </div>
+
+        <div class="toc">
+            <h4>Table of Contents</h4>
+            <ul>
+                <li><a href="#section1">1. Privacy Policy</a></li>
+                <li><a href="#section2">2. Eligibility</a></li>
+                <li><a href="#section3">3. Dispute Resolution</a></li>
+                <li><a href="#section4">4. Your Use of the Service</a></li>
+                <li><a href="#section5">5. Fees and Subscriptions</a></li>
+                <li><a href="#section6">6. Data Protection</a></li>
+                <li><a href="#section7">7. Modifications</a></li>
+                <li><a href="#section8">8. Third Party Websites</a></li>
+                <li><a href="#section9">9. Intellectual Property</a></li>
+                <li><a href="#section10">10. Term and Termination</a></li>
+            </ul>
+        </div>
+
+        <section id="section1">
+            <h2><span class="section-number">1.</span> Privacy Policy</h2>
+            <p>We take your privacy very seriously. Our Privacy Policy explains how we collect information from you and how we may use and share that information (including personal data within the meaning of GDPR). For information about how we collect, use, share, or otherwise process your personal data, please see our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+        </section>
+
+        <section id="section2">
+            <h2><span class="section-number">2.</span> Eligibility</h2>
+            <p>You must be at least eighteen (18) years old to create an Account and use our Services. If you are agreeing to these Terms on behalf of an organization, you represent and warrant that you are authorized to bind them to these Terms.</p>
+        </section>
+
+        <section id="section3">
+            <h2><span class="section-number">3.</span> Dispute Resolution</h2>
+            <h3>(A) Informal Dispute Resolution</h3>
+            <p>Please contact us at <strong>support@scannerly.com</strong> to address any concerns. If we are unable to resolve a Claim within 60 days, you agree to resolve the matter through binding arbitration.</p>
+            
+            <h3>(B) Governing Law</h3>
+            <p>These Terms shall be exclusively governed by the laws of <strong>New York, United States of America</strong>, without regard to its conflict of law principles.</p>
+
+            <h3>(C) Arbitration</h3>
+            <p>Any Claim arising out of or relating to this contract will be referred to and finally determined by arbitration in accordance with the JAMS International Arbitration Rules. The place of arbitration will be New York, US.</p>
+
+            <h3>(D) No Class Actions</h3>
+            <p>You and Company agree to resolve disputes on an individual basis. You cannot participate as a plaintiff or class member in any purported class action or representative proceeding.</p>
+        </section>
+
+        <section id="section4">
+            <h2><span class="section-number">4.</span> Your Use of the Service</h2>
+            <h3>(A) License</h3>
+            <p>We grant you a revocable, non-exclusive, non-transferable, limited right to install and use the Application on wireless electronic devices owned or controlled by you.</p>
+
+            <h3>(B) Your Account</h3>
+            <p>You are responsible for maintaining the confidentiality of your Account credentials. We reserve the right to terminate accounts that suspect a breach of security or remain inactive for long periods.</p>
+
+            <h3>(C) Your Content</h3>
+            <p>Scannerly allows you to scan, edit, and modify documents ("Content"). You represent that your Content does not infringe on any third-party rights and is not illegal, obscene, or harassing. You grant Company a license to host and use this content to provide the Services.</p>
+
+            <div class="alert-box">
+                <strong>Disclaimer:</strong> Scannerly is not affiliated with the IRS, SSA, USCIS, or any government agency. We do not provide legal or professional advice.
+            </div>
+        </section>
+
+        <section id="section5">
+            <h2><span class="section-number">5.</span> Fees and Subscription Plans</h2>
+            <p>Subscription plans renew automatically unless canceled. Fees are billed through an online billing account.</p>
+            <ul class="content-list">
+                <li><strong>Trial Plans:</strong> Must be canceled before the period ends to avoid charges.</li>
+                <li><strong>Cancellations:</strong> Can be done via Account settings or Apple/Google Play stores.</li>
+                <li><strong>Refunds:</strong> We offer a 30-day money-back satisfaction guarantee.</li>
+            </ul>
+        </section>
+
+        <section id="section6">
+            <h2><span class="section-number">6.</span> Data Protection</h2>
+            <p>It is your responsibility to comply with privacy laws applicable to personal data you provide. For EU users, our Data Processing Agreement (DPA) and Standard Contractual Clauses apply to data transfers.</p>
+        </section>
+
+        <section id="section7">
+            <h2><span class="section-number">7.</span> Modifications</h2>
+            <p>We may revise these Terms from time to time. Changes become effective upon posting the updated date. Continued use of the Services indicates acceptance of the new Terms.</p>
+        </section>
+
+        <section id="section8">
+            <h2><span class="section-number">8.</span> Third Party Websites</h2>
+            <p>We are not responsible for the content or accuracy of any third-party websites linked through our Services.</p>
+        </section>
+
+        <section id="section9">
+            <h2><span class="section-number">9.</span> Intellectual Property</h2>
+            <p>All Company IP, including logos and software (exclusive of user content), remains the property of EAST FUSION FZCO or its licensors.</p>
+        </section>
+
+        <section id="section10">
+            <h2><span class="section-number">10.</span> Term and Termination</h2>
+            <p>These Terms remain in effect until terminated by either party. We may terminate your access immediately for violations of these Terms or applicable law.</p>
+        </section>
+
+        <footer style="margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border); text-align: center; color: var(--text-muted); font-size: 0.8rem;">
+            <p>EAST FUSION FZCO | Building A1, Dubai Digital Park, Dubai Silicon Oasis, Dubai, UAE</p>
+        </footer>
+    </div>
+
+</body>
+</html>
